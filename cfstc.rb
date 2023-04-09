@@ -12,7 +12,7 @@ class Cfstc < Formula
 
   def caveats
     <<~EOS
-    How to use: https://github.com/XIU2/CloudflareSpeedTest
+    How to use: https://github.com/Mrered/homebrew-cfstc/blob/main/README.md
     EOS
   end
 end

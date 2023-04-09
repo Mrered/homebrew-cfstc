@@ -4,6 +4,14 @@
 
 这是我结合自己的情况，为[CloudflareST](https://github.com/XIU2/CloudflareSpeedTest)打包的带参数运行文件，结合`corntab`可以实现定时生成一个 `result.csv`
 
+> 参考[cfstc](https://github.com/Mrered/cfstc)
+
+参数详情：
+
+```shell
+/opt/homebrew/Cellar/cfstarm64/2.2.2/bin/CloudflareST -f /opt/homebrew/Cellar/cfstarm64/2.2.2/bin/ipv6.txt -o ~/.CloudflareSTResult/result.csv -n 1000 -dn 10 -tll 30 -dt 13 -tl 280 -sl 15 -p 5
+```
+
 ## 环境需求
 
 ### 必要
