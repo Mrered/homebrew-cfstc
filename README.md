@@ -50,6 +50,6 @@ sed -n "2,1p" ~/.CloudflareSTResult/result.csv | awk -F, '{print $1}'
 ## 安装方式
 
 ```shell
-brew install mrered/cloudflarest/cfstc
+brew install mrered/cfstc/cfstc
 ```
 
