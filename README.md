@@ -46,3 +46,10 @@ sed -n "2,1p" ~/.CloudflareSTResult/result.csv | awk -F, '{print $1}'
 [自动更新 Cloudflare 中的域名解析记录为最快 IP（Windows/Linux 脚本+手动教程） · Issue #40 · XIU2/CloudflareSpeedTest (github.com)](https://github.com/XIU2/CloudflareSpeedTest/issues/40)
 
 </details>
+
+## 安装方式
+
+```shell
+brew install mrered/cloudflarest/cfstc
+```
+
